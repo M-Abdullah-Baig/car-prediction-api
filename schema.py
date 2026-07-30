@@ -19,7 +19,7 @@ class TransmissionType(str, Enum):  # Enumerate type value (choose a single valu
 
 class CarFeatures(BaseModel):
     Car_Name: str = Field(..., example="ritz")
-    Year: str = Field(..., example=2014)
+    Year: int = Field(..., example=2014)
     Present_Price: float = Field(..., example=5.59)
     Kms_Driven: int = Field(..., example=27000)
     Fuel_Type: FuelType
