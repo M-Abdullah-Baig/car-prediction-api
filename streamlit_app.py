@@ -4,7 +4,7 @@ import requests
 st.set_page_config(page_title="Car Price Prediction", page_icon="🚗", layout="centered")
 
 API_URL = (
-    "https://car-prediction-lpfl.onrender.com/predict"    # deployed link
+    "https://car-prediction-fastapi-production.up.railway.app/predict"    # deployed link
     or "http://127.0.0.1:8000/predict"                   # local link
 )  # change if your endpoint differs
 
