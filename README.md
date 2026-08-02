@@ -121,7 +121,7 @@ Dataset
 GET /
 ```
 
-Returns a message "this is test route".
+Returns a welcome message confirming that the API is running.
 
 ```http
 POST /predict
@@ -150,7 +150,9 @@ python -m venv .venv
 ```
 
 ### Activate
+```bash
 .venv\Scripts\activate
+```
 
 ## Install Dependencies
 
@@ -173,6 +175,7 @@ streamlit run streamlit_app.py
 
 ## Docker
 ### Build Image
+```bash
 docker build -t abccode/car-prediction-fastapi .
 
 ### Run Container
@@ -186,6 +189,7 @@ docker push abccode/car-prediction-fastapi
 
 ### Pull Image
 docker pull abccode/car-prediction-fastapi:latest
+```
 
 ## AWS Deployment:
 The project is designed for deployment on AWS EC2 using Docker.
