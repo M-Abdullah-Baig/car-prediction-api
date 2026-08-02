@@ -94,8 +94,6 @@ car-prediction-api/
 ├── random_forest_model.pkl    # Trained ML model
 ├── feature_columns.pkl        # Feature metadata
 ├── cardekho_data.csv          # Dataset
-│
-└── __pycache__/               # Python cache (ignored by Git)
 ```
 
 ## Machine Learning Workflow:
