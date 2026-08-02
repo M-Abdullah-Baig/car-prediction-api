@@ -26,23 +26,35 @@ Ready for cloud deployment (AWS EC2)
 
 ## Tech Stack:
 ### Machine Learning
+
 Python
+
 Scikit-learn
+
 Pandas
+
 NumPy
 
 ### Backend
+
 FastAPI
+
 Uvicorn
+
 Pydantic
 
 ### Frontend
+
 Streamlit
 
 ### DevOps
+
 Docker
+
 Docker Hub
+
 Git
+
 GitHub
 
 ## Project Structure:
