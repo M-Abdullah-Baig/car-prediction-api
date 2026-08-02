@@ -158,10 +158,10 @@ streamlit run streamlit_app.py
 
 ## Docker
 ### Build Image
-docker build -t <dockerhub-username>/car-prediction-api .
+docker build -t abccode/car-prediction-api .
 
 ### Run Container
-docker run -p 8000:8000 <dockerhub-username>/car-prediction-api
+docker run -p 8000:8000 abccode/car-prediction-api
 
 ### Background mode:
 docker run -d -p 8000:8000 abccode/car-prediction-api
