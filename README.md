@@ -72,15 +72,21 @@ car-prediction-api/
 ```
 
 ## Machine Learning Workflow:
-
 Dataset
   → Data Preprocessing
+  
   → Feature Engineering
+  
   → Model Training (Random Forest)
+  
   → Save Model (.pkl)
+  
   → FastAPI
+  
   → REST API
+  
   → Docker
+  
   → Deployment
 
 ## API Endpoints
@@ -140,34 +146,33 @@ docker pull abccode/car-prediction-api:latest
 ## AWS Deployment:
 The project is designed for deployment on AWS EC2 using Docker.
 
-Deployment workflow:
-
+### Deployment workflow:
 Docker Build
-      │
-Docker Hub
-      │
-AWS EC2
-      │
-Install Docker
-      │
-Pull Docker Image
-      │
-Run Container
-      │
-Access Public IP
+→ Push to Docker Hub
+
+→ Create AWS EC2 Instance
+
+→ Install Docker
+
+→ Pull Docker Image
+
+→ Run Docker Container
+
+→ Configure Security Group
+
+→ Access API via Public IP
 
 ## Development Workflow:
-Develop
-      │
-Git
-      │
-GitHub
-      │
-Docker
-      │
-Docker Hub
-      │
-AWS EC2
+Develop Code
+→ Git
+
+→ GitHub
+
+→ Dockerize Application
+
+→ Push Image to Docker Hub
+
+→ Deploy on AWS EC2
 
 ## Future Improvements:
 CI/CD using GitHub Actions
