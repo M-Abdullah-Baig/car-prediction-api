@@ -73,7 +73,6 @@ The project demonstrates an end-to-end machine learning workflow including:
 
 - GitHub
 
-## Project Structure:
 ## 📁 Project Structure
 
 ```text
