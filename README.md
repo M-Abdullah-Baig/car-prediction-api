@@ -46,25 +46,30 @@ Git
 GitHub
 
 ## Project Structure:
+## 📁 Project Structure
+
+```text
 car-prediction-api/
 │
-├── Dockerfile
-├── .gitignore
-├── .dockerignore
-├── requirements.txt
-├── runtime.txt
+├── Dockerfile                 # Docker configuration
+├── .dockerignore              # Files ignored during Docker build
+├── .gitignore                 # Files ignored by Git
+├── README.md                  # Project documentation
+├── requirements.txt           # Python dependencies
+├── runtime.txt                # Runtime configuration
 │
-├── main.py
-├── model.py
-├── schema.py
-├── train.py
-├── streamlit_app.py
+├── main.py                    # FastAPI application
+├── model.py                   # Prediction logic
+├── schema.py                  # Pydantic request/response models
+├── train.py                   # Model training script
+├── streamlit_app.py           # Streamlit frontend
 │
-├── random_forest_model.pkl
-├── feature_columns.pkl
-├── cardekho_data.csv
+├── random_forest_model.pkl    # Trained ML model
+├── feature_columns.pkl        # Feature metadata
+├── cardekho_data.csv          # Dataset
 │
-└── README.md
+└── __pycache__/               # Python cache (ignored by Git)
+```
 
 ## Machine Learning Workflow:
 Dataset
