@@ -72,16 +72,16 @@ car-prediction-api/
 ```
 
 ## Machine Learning Workflow:
-│
-├── Dataset
-├── Data Preprocessing
-├── Feature Engineering
-├── Model Training (Random Forest)
-├── Save Trained Model (.pkl)
-├── FastAPI Backend
-├── REST API
-├── Docker
-└── Deployment
+
+Dataset
+  → Data Preprocessing
+  → Feature Engineering
+  → Model Training (Random Forest)
+  → Save Model (.pkl)
+  → FastAPI
+  → REST API
+  → Docker
+  → Deployment
 
 ## API Endpoints
 ### Home
