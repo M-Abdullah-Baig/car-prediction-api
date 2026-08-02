@@ -206,26 +206,42 @@ Develop Code
 → Deploy on AWS EC2
 
 ## Future Improvements:
+
 CI/CD using GitHub Actions
+
 AWS ECR deployment
+
 CloudWatch monitoring
+
 Kubernetes deployment
+
 Model versioning
+
 Automated testing
+
 Performance optimization
+
 Authentication & authorization
 
 ## Learning Outcomes
 This project demonstrates practical experience with:
 
 Machine Learning model deployment
+
 REST API development
+
 FastAPI
+
 Streamlit
+
 Docker
+
 Docker Hub
+
 Git & GitHub
+
 API testing
+
 Cloud deployment workflow
 
 ## License
