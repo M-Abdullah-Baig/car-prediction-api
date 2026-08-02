@@ -6,39 +6,39 @@ This project predicts the estimated value of a vehicle based on its specificatio
 
 The project demonstrates an end-to-end machine learning workflow including:
 
-Data preprocessing
+- Data preprocessing
 
-Model training
+- Model training
 
-Model serialization
+- Model serialization
 
-REST API development
+- REST API development
 
-Input validation
+- Input validation
 
-Docker containerization
+- Docker containerization
 
-Frontend integration
+- Frontend integration
 
 ## Features:
 
-Vehicle valuation prediction
+- Vehicle valuation prediction
 
-FastAPI REST API
+- FastAPI REST API
 
-Streamlit frontend
+- Streamlit frontend
 
-Pydantic request validation
+- Pydantic request validation
 
-Random Forest machine learning model
+- Random Forest machine learning model
 
-Dockerized application
+- Dockerized application
 
-Docker Hub deployment support
+- Docker Hub deployment support
 
-Clean project structure
+- Clean project structure
 
-Ready for cloud deployment (AWS EC2)
+- Ready for cloud deployment (AWS EC2)
 
 ## Tech Stack:
 ### Machine Learning
