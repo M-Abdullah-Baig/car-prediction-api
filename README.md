@@ -43,35 +43,35 @@ The project demonstrates an end-to-end machine learning workflow including:
 ## Tech Stack:
 ### Machine Learning
 
-Python
+- Python
 
-Scikit-learn
+- Scikit-learn
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
 ### Backend
 
-FastAPI
+- FastAPI
 
-Uvicorn
+- Uvicorn
 
-Pydantic
+- Pydantic
 
 ### Frontend
 
-Streamlit
+- Streamlit
 
 ### DevOps
 
-Docker
+- Docker
 
-Docker Hub
+- Docker Hub
 
-Git
+- Git
 
-GitHub
+- GitHub
 
 ## Project Structure:
 ## 📁 Project Structure
