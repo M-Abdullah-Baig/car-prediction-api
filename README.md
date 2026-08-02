@@ -207,42 +207,40 @@ Develop Code
 
 ## Future Improvements:
 
-CI/CD using GitHub Actions
-
-AWS ECR deployment
-
-CloudWatch monitoring
-
-Kubernetes deployment
-
-Model versioning
-
-Automated testing
-
-Performance optimization
-
-Authentication & authorization
+- Implement CI/CD using GitHub Actions
+  
+- Deploy the application on AWS EC2
+  
+- Add model performance monitoring and logging
+  
+- Implement automated testing
+  
+- Add authentication and authorization
 
 ## Learning Outcomes
 This project demonstrates practical experience with:
 
-Machine Learning model deployment
+- Data preprocessing
+  
+- Feature engineering
 
-REST API development
-
-FastAPI
-
-Streamlit
-
-Docker
-
-Docker Hub
-
-Git & GitHub
-
-API testing
-
-Cloud deployment workflow
+- Machine Learning model training
+  
+- Model serialization using Pickle (.pkl)
+  
+- REST API development using FastAPI
+  
+- Request validation with Pydantic
+  
+- Frontend development using Streamlit
+  
+- Docker containerization
+  
+- Git and GitHub version control
+  
+- API testing using Swagger UI
+  
+- Cloud deployment workflow (AWS EC2)
 
 ## License
 This project is intended for learning, portfolio, and demonstration purposes. It showcases practical skills in Machine Learning, FastAPI, Docker, and API development.
