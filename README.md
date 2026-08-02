@@ -117,11 +117,16 @@ Dataset
 
 ## API Endpoints
 ### Home
+```http
 GET /
-Returns a welcome message.
+```
 
-### Prediction
+Returns a message "this is test route".
+
+```http
 POST /predict
+```
+
 Predicts the estimated vehicle value.
 
 ## Interactive API Documentation
