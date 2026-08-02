@@ -100,7 +100,8 @@ http://localhost:8000/docs
 
 ## Installation
 ### Clone Repository
-git clone https://github.com/<your-username>/car-prediction-api.git
+git clone https://github.com/M-Abdullah-Baig/car-prediction-fastapi
+
 cd car-prediction-api
 
 ## Create Virtual Environment
