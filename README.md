@@ -137,9 +137,9 @@ http://localhost:8000/docs
 ### Clone Repository
 ```bash
 git clone https://github.com/M-Abdullah-Baig/car-prediction-fastapi
-```
 
 cd car-prediction-fastapi
+```
 
 ## Create Virtual Environment
 Windows:
