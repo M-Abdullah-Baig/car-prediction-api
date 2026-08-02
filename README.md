@@ -5,23 +5,39 @@ A production-ready Machine Learning API built with FastAPI for vehicle valuation
 This project predicts the estimated value of a vehicle based on its specifications using a machine learning model. The application exposes the model through a FastAPI REST API and also provides an interactive Streamlit interface for end users.
 
 The project demonstrates an end-to-end machine learning workflow including:
+
 Data preprocessing
+
 Model training
+
 Model serialization
+
 REST API development
+
 Input validation
+
 Docker containerization
+
 Frontend integration
 
 ## Features:
+
 Vehicle valuation prediction
+
 FastAPI REST API
+
 Streamlit frontend
+
 Pydantic request validation
+
 Random Forest machine learning model
+
 Dockerized application
+
 Docker Hub deployment support
+
 Clean project structure
+
 Ready for cloud deployment (AWS EC2)
 
 ## Tech Stack:
