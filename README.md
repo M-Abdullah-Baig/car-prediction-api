@@ -145,7 +145,9 @@ python -m venv .venv
 pip install -r requirements.txt
 
 ## Run FastAPI
+```bash
 uvicorn main:app --reload
+```
 
 ### Open
 http://localhost:8000/docs
