@@ -245,9 +245,8 @@ API testing
 Cloud deployment workflow
 
 ## License
-This project is intended for educational and portfolio purposes.
+This project is intended for learning, portfolio, and demonstration purposes. It showcases practical skills in Machine Learning, FastAPI, Docker, and API development.
 
 ## Author
 Muhammad Abdullah Baig
-
 GitHub: https://github.com/M-Abdullah-Baig
