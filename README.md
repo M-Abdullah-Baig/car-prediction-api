@@ -144,6 +144,7 @@ cd car-prediction-fastapi
 ## Create Virtual Environment
 Windows:
 
+
 ```bash
 python -m venv .venv
 ```
