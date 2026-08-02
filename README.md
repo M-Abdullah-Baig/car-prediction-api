@@ -76,7 +76,7 @@ The project demonstrates an end-to-end machine learning workflow including:
 ## 📁 Project Structure
 
 ```text
-car-prediction-api/
+car-prediction-fastapi/
 │
 ├── Dockerfile                 # Docker configuration
 ├── .dockerignore              # Files ignored during Docker build
@@ -155,19 +155,19 @@ streamlit run streamlit_app.py
 
 ## Docker
 ### Build Image
-docker build -t abccode/car-prediction-api .
+docker build -t abccode/car-prediction-fastapi .
 
 ### Run Container
-docker run -p 8000:8000 abccode/car-prediction-api
+docker run -p 8000:8000 abccode/car-prediction-fastapi
 
 ### Background mode:
-docker run -d -p 8000:8000 abccode/car-prediction-api
+docker run -d -p 8000:8000 abccode/car-prediction-fastapi
 
 ### Push Image
-docker push abccode/car-prediction-api
+docker push abccode/car-prediction-fastapi
 
 ### Pull Image
-docker pull abccode/car-prediction-api:latest
+docker pull abccode/car-prediction-fastapi:latest
 
 ## AWS Deployment:
 The project is designed for deployment on AWS EC2 using Docker.
