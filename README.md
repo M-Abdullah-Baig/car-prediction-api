@@ -73,6 +73,7 @@ car-prediction-api/
 
 ## Machine Learning Workflow:
 Dataset
+
   → Data Preprocessing
   
   → Feature Engineering
@@ -148,6 +149,7 @@ The project is designed for deployment on AWS EC2 using Docker.
 
 ### Deployment workflow:
 Docker Build
+
 → Push to Docker Hub
 
 → Create AWS EC2 Instance
@@ -164,6 +166,7 @@ Docker Build
 
 ## Development Workflow:
 Develop Code
+
 → Git
 
 → GitHub
