@@ -135,19 +135,27 @@ http://localhost:8000/docs
 
 ## Installation
 ### Clone Repository
+```bash
 git clone https://github.com/M-Abdullah-Baig/car-prediction-fastapi
+```
 
 cd car-prediction-fastapi
 
 ## Create Virtual Environment
 Windows:
+
+```bash
 python -m venv .venv
+```
 
 ### Activate
 .venv\Scripts\activate
 
 ## Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ## Run FastAPI
 ```bash
@@ -158,7 +166,9 @@ uvicorn main:app --reload
 http://localhost:8000/docs
 
 ## Run Streamlit
+```bash
 streamlit run streamlit_app.py
+```
 
 ## Docker
 ### Build Image
