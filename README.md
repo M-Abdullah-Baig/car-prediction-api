@@ -176,12 +176,13 @@ streamlit run streamlit_app.py
 ## Docker
 ### Build Image
 ```bash
+### Build Image
 docker build -t abccode/car-prediction-fastapi .
 
 ### Run Container
 docker run -p 8000:8000 abccode/car-prediction-fastapi
 
-### Background mode:
+### Background mode
 docker run -d -p 8000:8000 abccode/car-prediction-fastapi
 
 ### Push Image
