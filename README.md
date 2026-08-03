@@ -76,7 +76,7 @@ The project demonstrates an end-to-end machine learning workflow including:
 ## 📁 Project Structure
 
 ```text
-car-prediction-fastapi/
+car-prediction-api/
 │
 ├── Dockerfile                 # Docker configuration
 ├── .dockerignore              # Files ignored during Docker build
@@ -136,9 +136,9 @@ http://localhost:8000/docs
 ## Installation
 ### Clone Repository
 ```bash
-git clone https://github.com/M-Abdullah-Baig/car-prediction-fastapi
+git clone https://github.com/M-Abdullah-Baig/car-prediction-api
 
-cd car-prediction-fastapi
+cd car-prediction-api
 ```
 
 ## Create Virtual Environment
