@@ -3,7 +3,7 @@ import joblib
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
-DATA_PATH = "car-price-api/cardekho_data (1).csv"  # put the csv in project root (same as train.py)
+DATA_PATH = "car-price-api/car_data.csv"  # put the csv in project root (same as train.py)
 MODEL_PATH = "car-price-api/random_forest_model.pkl"
 COLS_PATH = "car-price-api/feature_columns.pkl"
 
