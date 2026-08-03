@@ -177,19 +177,19 @@ streamlit run streamlit_app.py
 ### Build Image
 ```bash
 ### Build Image
-docker build -t abccode/car-prediction-fastapi .
+docker build -t abccode/car-prediction-api .
 
 ### Run Container
-docker run -p 8000:8000 abccode/car-prediction-fastapi
+docker run -p 8000:8000 abccode/car-prediction-api
 
 ### Background mode
-docker run -d -p 8000:8000 abccode/car-prediction-fastapi
+docker run -d -p 8000:8000 abccode/car-prediction-api
 
 ### Push Image
-docker push abccode/car-prediction-fastapi
+docker push abccode/car-prediction-api
 
 ### Pull Image
-docker pull abccode/car-prediction-fastapi:latest
+docker pull abccode/car-prediction-api:latest
 ```
 
 ## AWS Deployment:
