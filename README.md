@@ -93,7 +93,7 @@ car-prediction-fastapi/
 │
 ├── random_forest_model.pkl    # Trained ML model
 ├── feature_columns.pkl        # Feature metadata
-├── cardekho_data.csv          # Dataset
+├── car_data.csv               # Dataset
 ```
 
 ## Machine Learning Workflow:
