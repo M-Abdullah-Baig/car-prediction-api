@@ -12,7 +12,7 @@
 
 A production-ready Machine Learning API built with FastAPI for vehicle valuation. The project includes a trained Random Forest model, an interactive Streamlit frontend, Docker support, and a REST API for real-time predictions.
 
-## Project Overview:
+## 📖 Project Overview:
 This project predicts the estimated value of a vehicle based on its specifications using a machine learning model. The application exposes the model through a FastAPI REST API and also provides an interactive Streamlit interface for end users.
 
 The project demonstrates an end-to-end machine learning workflow including:
@@ -31,7 +31,7 @@ The project demonstrates an end-to-end machine learning workflow including:
 
 - Frontend integration
 
-## Features:
+## ✨ Features:
 
 - Vehicle valuation prediction
 
@@ -51,7 +51,7 @@ The project demonstrates an end-to-end machine learning workflow including:
 
 - Ready for cloud deployment (AWS EC2)
 
-## Tech Stack:
+## 🛠️ Tech Stack:
 ### Machine Learning
 
 - Python
@@ -107,7 +107,7 @@ car-prediction-api/
 ├── car_data.csv               # Dataset
 ```
 
-## Machine Learning Workflow:
+## 🔄 Machine Learning Workflow:
 Dataset
 
   → Data Preprocessing
@@ -126,7 +126,7 @@ Dataset
   
   → Deployment
 
-## API Endpoints
+## 🌐 API Endpoints
 ### Home
 ```http
 GET /
@@ -140,11 +140,11 @@ POST /predict
 
 Predicts the estimated vehicle value.
 
-## Interactive API Documentation
+## 📚 Interactive API Documentation
 FastAPI automatically generates Swagger documentation.
 http://localhost:8000/docs
 
-## Installation
+## ⚙️ Installation
 ### Clone Repository
 ```bash
 git clone https://github.com/M-Abdullah-Baig/car-prediction-api
@@ -175,7 +175,6 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ```
-
 ### Open
 http://localhost:8000/docs
 
@@ -184,7 +183,7 @@ http://localhost:8000/docs
 streamlit run streamlit_app.py
 ```
 
-## Docker
+## 🐳 Docker
 ### Build Image
 ```bash
 ### Build Image
@@ -203,7 +202,7 @@ docker push abccode/car-prediction-api
 docker pull abccode/car-prediction-api:latest
 ```
 
-## AWS Deployment:
+## ☁️ AWS Deployment:
 The project is designed for deployment on AWS EC2 using Docker.
 
 ### Deployment workflow:
@@ -223,7 +222,7 @@ Docker Build
 
 → Access API via Public IP
 
-## Development Workflow:
+## 🚀 Development Workflow:
 Develop Code
 
 → Git
@@ -236,7 +235,7 @@ Develop Code
 
 → Deploy on AWS EC2
 
-## Future Improvements:
+## 🔮 Future Improvements:
 
 - Implement CI/CD using GitHub Actions
   
@@ -248,7 +247,7 @@ Develop Code
   
 - Add authentication and authorization
 
-## Learning Outcomes
+## 🎯 Learning Outcomes
 This project demonstrates practical experience with:
 
 - Data preprocessing
@@ -273,10 +272,10 @@ This project demonstrates practical experience with:
   
 - Cloud deployment workflow (AWS EC2)
 
-## License
+## 📄 License
 This project is intended for learning, portfolio, and demonstration purposes. It showcases practical skills in Machine Learning, FastAPI, Docker, and API development.
 
-## Author
+## 👨‍💻 Author
 Muhammad Abdullah Baig
 
 GitHub: https://github.com/M-Abdullah-Baig
